@@ -51,7 +51,7 @@ if(jawaban==67){
 
 meme.style.display="block";
 
-karakter.src="prabowo senang.jpg";
+karakter.src="prabowo_senang.jpg";
 
 dialog.innerText="🗿 6️⃣7️⃣ DETECTED! Kamu menemukan easter egg!";
 
@@ -60,7 +60,7 @@ dialog.innerText="🗿 6️⃣7️⃣ DETECTED! Kamu menemukan easter egg!";
 /* MEME 69 */
 else if(jawaban==69){
 
-karakter.src="prabowo ngamuk.jpg";
+karakter.src="prabowo_ngamuk.jpg";
 
 dialog.innerText="😑 Ini bukan game meme! Fokus hitung pohonnya!";
 
@@ -69,7 +69,7 @@ dialog.innerText="😑 Ini bukan game meme! Fokus hitung pohonnya!";
 /* BENAR */
 else if(jawaban==jumlahPohon){
 
-karakter.src="prabowo senang.jpg";
+karakter.src="prabowo_senang.jpg";
 
 dialog.innerText="✅ Selamat!, kamu berhasil menebak jumlah pohon sawit dengan benar.";
 
@@ -78,7 +78,7 @@ dialog.innerText="✅ Selamat!, kamu berhasil menebak jumlah pohon sawit dengan 
 /* HAMPIR BENAR */
 else if(selisih<=2){
 
-karakter.src="prabowo ngamuk.jpg";
+karakter.src="prabowo_ngamuk.jpg";
 
 dialog.innerText="🤨 Hampir benar... hitung lagi dengan teliti!";
 
@@ -87,7 +87,7 @@ dialog.innerText="🤨 Hampir benar... hitung lagi dengan teliti!";
 /* SALAH JAUH */
 else if(selisih>10){
 
-karakter.src="prabowo ngamuk.jpg";
+karakter.src="prabowo_ngamuk.jpg";
 
 dialog.innerText="Nyawit nih orang";
 
@@ -96,7 +96,7 @@ dialog.innerText="Nyawit nih orang";
 /* SALAH BIASA */
 else{
 
-karakter.src="prabowo ngamuk.jpg";
+karakter.src="prabowo_ngamuk.jpg";
 
 dialog.innerText="❌ Kamu kurang teliti! Coba hitung lagi.";
 
