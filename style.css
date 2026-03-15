@@ -1,0 +1,116 @@
+body{
+font-family:sans-serif;
+text-align:center;
+background:#f5f5f5;
+}
+
+h2{
+margin-bottom:20px;
+}
+
+/* layout utama */
+.layout{
+display:flex;
+align-items:flex-start;
+justify-content:center;
+gap:60px;
+}
+
+/* area pohon */
+#area{
+position:relative;
+width:500px;
+height:350px;
+margin-top:30px;
+}
+
+/* pohon */
+#area img{
+position:absolute;
+width:85px;
+}
+
+/* karakter */
+.karakter{
+position:relative;
+margin-top:240px;
+}
+
+#karakter{
+width:180px;
+}
+
+/* bubble text */
+.bubble{
+position:absolute;
+top:-90px;
+right:20px;
+background:white;
+border:2px solid black;
+border-radius:20px;
+padding:15px;
+width:180px;
+font-size:14px;
+}
+
+/* segitiga bubble */
+.bubble::after{
+content:"";
+position:absolute;
+bottom:-20px;
+right:60px;
+border-width:20px;
+border-style:solid;
+border-color:white transparent transparent transparent;
+}
+
+/* tombol submit */
+.submit{
+background:#3b82f6;
+color:orange;
+padding:15px 50px;
+border:none;
+border-radius:20px;
+transform:rotate(-25deg);
+font-weight:bold;
+cursor:pointer;
+margin-top:360px;
+}
+
+/* kontrol angka */
+.controls{
+margin-top:30px;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:10px;
+}
+
+/* tombol bulat */
+.minus,
+.plus{
+width:40px;
+height:40px;
+border-radius:50%;
+border:none;
+font-size:20px;
+color:white;
+cursor:pointer;
+}
+
+/* warna tombol */
+.minus{
+background:red;
+}
+
+.plus{
+background:#3b82f6;
+}
+
+/* input angka */
+#inputUser{
+width:80px;
+text-align:center;
+font-size:18px;
+margin:0 10px;
+}
